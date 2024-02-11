@@ -10,5 +10,5 @@ package com.mycompany.charlesdarwin;
  */
 public abstract class Ave {
     public abstract void makesound();
-    
+    public abstract void volar();
 }
