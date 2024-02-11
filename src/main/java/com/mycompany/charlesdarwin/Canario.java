@@ -17,10 +17,8 @@ public class Canario extends Ave {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    @Override
-    public void volar() {
-        System.out.println("Vuela con alas");
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+public void vuela(){
+        System.out.println("Vuela con alas");  
     }
 
 
