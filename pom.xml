@@ -5,10 +5,24 @@
     <artifactId>CHarlesDarwin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+<dependencies>
+        <dependency>
+            <groupId>org.dominokit</groupId>
+            <artifactId>domino-slf4j-logger</artifactId>
+            <version>1.0.3</version>
+            <type>gwt-lib</type>
+            
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jcl</artifactId>
+            <version>1.7.36</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.mycompany.charlesdarwin.CHarlesDarwin</exec.mainClass>
+        <exec.mainClass>com.mycompany.lab_1.Lab_1</exec.mainClass>
+        <maven.compiler.release>21</maven.compiler.release>
     </properties>
 </project>

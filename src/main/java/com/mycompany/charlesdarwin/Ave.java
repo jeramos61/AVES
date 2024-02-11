@@ -9,6 +9,8 @@ package com.mycompany.charlesdarwin;
  * @author johan
  */
 public abstract class Ave {
-    public abstract void makesound();
+    TipoSonido tipoSonido;
+    TipoVuelo tipoVuelo;
+    
     
 }

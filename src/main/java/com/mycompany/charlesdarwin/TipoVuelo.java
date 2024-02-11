@@ -4,13 +4,11 @@
  */
 package com.mycompany.charlesdarwin;
 
-
-
 /**
  *
  * @author johan
  */
-public interface Volar {
-    void vuela();
+public interface TipoVuelo {
+    void vuelo();
     
 }
