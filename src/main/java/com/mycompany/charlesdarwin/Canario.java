@@ -8,7 +8,7 @@ package com.mycompany.charlesdarwin;
  *
  * @author johan
  */
-public class Canario extends Ave {
+public class Canario extends Ave implements Volar {
 
     @Override
     public void makesound() {
@@ -17,7 +17,8 @@ public class Canario extends Ave {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-public void vuela(){
+    @Override
+    public void vuela(){
         System.out.println("Vuela con alas");  
     }
 

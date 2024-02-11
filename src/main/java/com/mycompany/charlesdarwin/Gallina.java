@@ -9,7 +9,7 @@ package com.mycompany.charlesdarwin;
  *
  * @author johan
  */
-public class Gallina extends Ave{
+public class Gallina extends Ave implements Volar{
 
     @Override
     public void makesound() {
@@ -19,6 +19,7 @@ public class Gallina extends Ave{
     }
 
 
+    @Override
     public void vuela(){
         System.out.println("Vuela con alas");  
     }
