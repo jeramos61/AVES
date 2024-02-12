@@ -14,12 +14,12 @@ import org.slf4j.LoggerFactory;
  */
 public class Gallina extends Ave{
 
- public static final Logger logger = LoggerFactory.getLogger(Avestruz.class);
+ public static final Logger logger = LoggerFactory.getLogger(Gallina.class);
  
  public Gallina(){
      logger.debug("instanciando Gallina");
-     tipoSonido = new Grasnido();
-     tipoVuelo = new VueloConAlas();
+     this.setTipoSonido(new Grasnido());
+     this.setTipoVuelo(new VueloConAlas());
  }
     
 }
